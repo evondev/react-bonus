@@ -70,7 +70,7 @@ const TodoApp = () => {
           >
             {todoList.map((item, index) => (
               <li
-                key={index}
+                key={item.id}
                 className={`flex items-center justify-between gap-x-3 text-base`}
               >
                 <span>{item.title}</span>
@@ -90,3 +90,16 @@ const TodoApp = () => {
 };
 
 export default TodoApp;
+// Drag and drop
+// key: abc Lesson 1: Introduction
+// key: xyz Lesson 2: About
+// components: Button, Input, Textarea, Label, Avatar, Loading, Layout
+// modules: User, Campaign, Post, Cart
+// hooks: Custom hooks
+// utils: Functions convertToNumber, formatDate, convertCurrency
+// styles
+// assets, public: Images, Icons, Fonts
+// contexts
+// redux, store
+// common
+// Naming convention

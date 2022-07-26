@@ -1,9 +1,9 @@
 import React from "react";
-import TodoApp from "./components/TodoApp";
+import HackerNews from "./components/HackerNews";
 const App = () => {
   return (
-    <div>
-      <TodoApp></TodoApp>
+    <div className="p-10">
+      <HackerNews></HackerNews>
     </div>
   );
 };
